@@ -1,0 +1,41 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #1dd2c4, #3b8dff);
+  height: 100vh;
+  overflow: auto;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+.search {
+   width: 300px;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px);
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+}
+.search-section {
+  margin-bottom: 30px;
+}

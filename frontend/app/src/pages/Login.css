@@ -1,0 +1,113 @@
+.form-field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1 {
+  text-align: center;
+  font-size: x-large;
+  margin-bottom: 40px;
+}
+.login-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #043a7a;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.login-container::before,
+.login-container::after {
+  content: "";
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  background: rgba(255, 255, 255, 0.15);
+  filter: blur(120px);
+  z-index: 0;
+  border-radius: 50%;
+}
+
+.login-container::before {
+  top: -150px;
+  left: -200px;
+}
+
+.login-container::after {
+  bottom: -150px;
+  right: -200px;
+}
+
+.overlay-box {
+  width: 360px;
+  padding: 35px;
+  border-radius: 25px;
+
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(25px);
+
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.25),
+              inset 0 0 20px rgba(255, 255, 255, 0.1);
+
+  z-index: 1;
+  color: white;
+}
+
+.overlay-box label {
+  display: block;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.overlay-box input {
+  width: 100%;
+  padding: 12px;
+  margin-top: 6px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: rgba(255,255,255,0.1);
+  backdrop-filter: blur(5px);
+  color: white;
+  height: 30px;
+  border-radius: 10px;
+}
+
+.overlay-box input::placeholder {
+  color: rgba(255,255,255,0.7);
+}
+
+.forgot {
+  display: block;
+  margin-top: 8px;
+  font-size: 13px;
+  color: #dfe8ff;
+  cursor: pointer;
+}
+
+.signin-btn {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  border-radius: 10px;
+  border: none;
+  background: #043a7a;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+}

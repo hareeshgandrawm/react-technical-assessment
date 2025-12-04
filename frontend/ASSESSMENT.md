@@ -1,6 +1,5 @@
 # React Frontend Assessment (30-40 minutes)
 
-
 ## Overview
 Build a simple React application that integrates with the Marketplace Backend API. Focus on core functionality and clean code.
 
