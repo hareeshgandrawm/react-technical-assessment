@@ -12,7 +12,7 @@ export const Cart = () => {
   if (cart.length === 0) return <p>Your cart is empty</p>;
 
   return (
-    <div>
+    <div className="cart">
       <h2>Your Cart</h2>
       {cart.map((item) => (
         <div

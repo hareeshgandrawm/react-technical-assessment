@@ -38,7 +38,7 @@ function Navbar() {
               right: 0,
               width: 400,
               height: "100vh",
-              background: "linear-gradient(135deg, #1dd2c4, #3b8dff);",
+              background:'linear-gradient(135deg, #1dd2c4, #3b8dff)',
               padding: 20,
               overflowY: "auto",
               boxShadow: "-5px 0 15px rgba(0,0,0,0.5)",

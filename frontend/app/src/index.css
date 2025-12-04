@@ -12,7 +12,7 @@ body {
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   background: linear-gradient(135deg, #1dd2c4, #3b8dff);
   height: 100vh;
   overflow: auto;
@@ -24,13 +24,13 @@ h1 {
 }
 
 .search {
-   width: 300px;
+  width: 300px;
   padding: 12px;
   margin-top: 6px;
   border-radius: 10px;
   border: none;
   outline: none;
-  background: rgba(255,255,255,0.1);
+  background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(5px);
   color: white;
   height: 30px;
